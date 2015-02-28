@@ -111,6 +111,7 @@ def home():
 @app.route('/person')
 
 def person():
+  # from tutorial 3
   first_user = db.session.query(User).first()
   return "First Name: {} Last Name: {} Email: {} sex: {} Age: {} mage: {}".format(first_user.first_name, first_user.last_name, first_user.email, first_user.sex, first_user.age, first_user.image,)
 
