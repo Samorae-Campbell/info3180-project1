@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block js %}
+
+{% endblock %}
+
+{% block main %}
+
+<div> <img src="{{ url_for('static', filename='img/'+image) }}"/>
+      </div><br/>
+      
+      <div > <p class="name"> {{ first_name }} {{ last_name }} </p>
+      <br/>
+      
+      <p> Today is: {{ time }} </p>
+      <p>
+         First Name: {{ first_name }} <br/>
+         Last Name: {{ last_name }} <br/>
+         ID: {{ id }} <br/>
+         Sex: {{ sex }} <br/>
+         Age: {{ age }} <br/>
+        Highest Score: {{hscore}} <br/>
+        TDollars: {{tdollars}} </p>
+        
+      </div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block js %}
+
+{% endblock %}
+
+{% block main %}
+
+<div > <h1> ALL PROFILES </h1>
+      <br/>
+      
+      <p>
+        <ul>
+        {% for x in profile_list:%}
+          
+        <!-- <li> User ID: {{ x.id }}, First Name: {{ x.first_name }}, Last Name: {{ x.last_name }}, Email: {{ x.email }}, Sex: {{ x.sex }}, Age: {{ x.age }}, Highscore: {{ x.hscore }}, T Dollars: {{ x.tdollars }}</li>-->
+          <li> {{ x }} </li>
+        
+        {% endfor %}
+        </ul>
+         <!--Last Name: {{ last_name }} <br/>
+         ID: {{ id }} <br/>
+         Sex: {{ sex }} <br/>
+         Age: {{ age }} <br/>
+        Highest Score: {{hscore}} <br/>
+        TDollars: {{tdollars}} </p>-->
+        
+      </div>
+      
+  </body>
+  
+
+</html>
+
+{% endblock %}

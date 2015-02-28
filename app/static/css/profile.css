@@ -1,0 +1,39 @@
+html{
+  background-color: black;
+}
+
+body{
+  width: 70%;
+  margin: auto center 0;
+}
+
+.body{
+  width: 70%;]
+  margin: auto 0;
+  height: 100%;
+}
+
+
+img{
+  float: left;
+  height: 280px;
+  width: 240px;
+}
+
+p{
+  background-color: #6666FF;
+  border: 2px solid black;
+  width: 400px; 
+  /*float: left;*/
+}
+
+.name{
+  width: 480px;
+}
+
+.space{
+  width: 300px;
+}
+
+
+
